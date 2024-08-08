@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.app-container {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  .sidebar {
+    width: 250px; /* Atur lebar sidebar sesuai kebutuhan */
+    background-color: #f8f9fa; /* Gaya tambahan untuk sidebar */
+  }
+  
+  .canvas {
+    flex: 1;
+    padding: 16px; /* Tambahkan padding sesuai kebutuhan */
+  }
+  
